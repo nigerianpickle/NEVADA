@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nevada.</title>
+	<link rel="Stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="./Images/NEVADA-removebg-preview.png" style="padding: 0%;" ></a>
+		<div class="navlinks" id="nav-links">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="./index.html">HOME</a></li>
+				<li><a href="./about.html">ABOUT</a></li>
+				<li><a href="">SESSIONS</a></li>
+				<li><a href="">PROGRESS</a></li>
+				<li><a href="">HELP</a></li>
+
+
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()" ></i>
+	</nav>
+
+	<div class="textbox">
+		<h1 style="color: black;">ABOUT US.</h1>
+		<p>An exclusive peek into our lore.</p>
+	</div>
+</section>
+
+<!-- ABOUT US CoNTENT -->
+<section class="about-content">
+	<div class="row">
+		<div class="about-col">
+			<h1>
+				TIBETIAN ROOTS.
+			</h1>
+			<p>
+				Welcome to Nevada Meditation, where the timeless wisdom of Tibetan monks meets the serenity of modern life.
+				Our sanctuary is a haven of tranquility, offering transformative techniques to help you discover inner peace and harmony.
+				At Nevada Meditation, we honor the ancient teachings passed down through generations of Tibetan masters.
+				Guided by experienced instructors who have studied under their tutelage, we provide a nurturing space for self-discovery and personal growth.
+				Step into our sanctuary and leave the stresses of the outside world behind.
+				Our serene spaces are designed to create an atmosphere of calmness and relaxation, allowing you to unwind and find solace within.
+				Through meditation, you can tap into your inner resources and explore the depths of your own consciousness.
+				Our dedicated instructors will guide you through various meditation practices, tailored to your individual needs and preferences.
+				From mindfulness to breathwork, visualization to sound healing, we offer a diverse range of techniques to suit your journey towards inner peace.
+				But Nevada Meditation is more than just a physical space. It is a community of like-minded individuals who share a common desire for personal growth and well-being.
+				Through workshops, group meditation sessions, and retreats, you can connect with others on the same path, fostering meaningful connections and support.
+				<br><a href="" class="about-hero">EXPLORE.</a>
+			</p>
+		</div>
+		<div class="about-col">
+			<img src="./Images/Palden Gyatso.jpg">
+			<p style="text-align: center;"><i><q>MASTER PALDEN GYATSO</q></i></p>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="about-footer">
+	<h4>MORE ON US.</h4>
+	<p>Established by Tibetan monks in 2002, Nevada is dedicated to guiding individuals on a transformative journey towards inner peace.<br>
+		Our expert instructors blend ancient wisdom with modern practices to empower minds and nurture souls. <br>
+		Join us on this path of self-discovery and positive change. Welcome to Nevada."</p>
+	<div class="socials">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagran"></i>
+		<i class="fa fa-linkedin"></i>
+
+	</div>
+</section>
+
+
+
+<!-- Java code -->
+<script>
+	var navLink=document.getElementById("nav-links");
+	function showMenu(){
+		navLink.style.right="0px";
+	}
+
+	function hideMenu(){
+		navLink.style.right="-200px";
+	}
+</script>
+</body>
+</html>
