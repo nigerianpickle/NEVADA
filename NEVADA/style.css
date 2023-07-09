@@ -442,6 +442,7 @@ nav .fa{
 	background-size: cover;
 	position: relative; 
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
 }
 
 .meditation-content{
@@ -451,6 +452,7 @@ nav .fa{
 	justify-content: center;
 	align-items: center;
 	color: white;
+	margin-bottom: 40vh;
 }
 
 .meditation-content::after{
@@ -510,5 +512,43 @@ nav .fa{
 	background-color: aqua;
 	border-radius: 50%;
 	transition: 4s ease all;
-
 }
+
+
+.circle-grow{
+	transform: scale(5.3);
+}
+
+.breaths{
+	text-align: center;
+	margin-bottom: 24px;
+	font-size: 24px;
+}
+
+.instructions{
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.start{
+	padding: 3vh 10vh;
+	font-size: 2vh;
+	border-radius: 8px;
+	background-color: aqua;
+	border-radius: none;
+	cursor: pointer;
+	transition:0.3s ease all;
+}
+
+.start:hover{
+	background-color: white;
+	color: aqua;
+}
+
+.start-inactive{
+	pointer-events: none;
+	background-color: grey;
+}
+
+
+
