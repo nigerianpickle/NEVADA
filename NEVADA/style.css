@@ -4,6 +4,16 @@
 	padding: 0;
 }
 
+/*Preloader*/
+#preloader{
+	background: #000 url(./Images/loader.gif) no-repeat center; 
+	height: 100vh;
+	background-size: 15%;
+	width: 100%;
+	position: fixed;
+	z-index: 100 ;
+}
+
 .header{
 	min-height: 80vh;
 	width: 100%;
