@@ -12,6 +12,7 @@
 
 </head>
 <body>
+	<div id="preloader"></div>
 <section class="sub-header">
 	<nav>
 		<a href="index.html"><img src="./Images/NEVADA-removebg-preview.png" style="padding: 0%;" ></a>
@@ -93,6 +94,13 @@
 	function hideMenu(){
 		navLink.style.right="-200px";
 	}
+
+		// PRE-LOADER
+		var loader=document.getElementById("preloader");
+
+		window.addEventListener("load",function(){
+		loader.style.display="none";
+		})
 </script>
 </body>
 </html>
