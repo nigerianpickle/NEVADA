@@ -118,7 +118,7 @@ nav img{
 	box-shadow: inset  1000px 0 0 0 black;
 }
 
-nav .fa{
+nav .bi{
 	display: none;
 }
 
@@ -141,9 +141,9 @@ nav .fa{
 		transition: 1s;
 	}
 
-	nav .fa{
+	nav .bi{
 		display: block;
-		color: white;
+		color: rgb(0, 0, 0);
 		margin: 10px;
 		font-size: 22px;
 		cursor: pointer;
@@ -331,8 +331,8 @@ nav .fa{
 .contact{
 	width: 100%;
 	margin: 100px auto;
-	background-image: linear-gradient(white,black);
 	color: white;
+	background-color: #000;
 	background-position: center;
 	background-size: cover;
 	border-radius: 10px;
@@ -351,10 +351,28 @@ nav .fa{
 		font-size: 24px;
 	}
 }
+.contact-btn{
+	background-color: yellow;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	border: 0px solid transparent;
+	padding: 25px 34px;
+	font-size: 15px; 
+	margin-top: 70px;
+	position: relative;
+	cursor: pointer;
+	transition: ease-out 1s;
+}
+
+.contact-btn:hover{
+	color: rgb(0, 0, 0);
+	box-shadow: inset  1000px 0 0 0 white;
+}
 
 .socials{
 	cursor: pointer;
-	color: white;
+	color: rgb(0, 0, 0);
 	margin: 0 30px;
 	padding: 18px 0;
 
@@ -362,7 +380,8 @@ nav .fa{
 
 /* FOOTER */
 .footer{
-	color: white;
+	background-color: white;
+	color: rgb(0, 0, 0);
 	width: 100%;
 	text-align: center;
 	padding: 30px 0;
@@ -559,6 +578,5 @@ nav .fa{
 	pointer-events: none;
 	background-color: grey;
 }
-
 
 
