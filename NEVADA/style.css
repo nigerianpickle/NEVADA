@@ -188,6 +188,8 @@ nav .bi{
 	padding: 10px;
 }
 
+ 
+
 .row{
 	margin-top: 5%;
 	display: flex;
@@ -475,7 +477,7 @@ nav .bi{
 
 /* SESSION CONTENTS*/
 .session-header{
-	background-image: linear-gradient(rgb(121, 251, 251),rgb(0, 0, 0));
+	background-color: black;
 	min-height: 60vh;
 	width: 100%;
 	background-position: center;
@@ -491,7 +493,7 @@ nav .bi{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: white;
+	color: rgb(255, 255, 255);
 	margin-bottom: 40vh;
 }
 
